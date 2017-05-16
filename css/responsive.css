@@ -1,0 +1,256 @@
+@media only screen and (max-width: 767px){
+    /*
+    ===================
+    header
+    ===================
+    */
+    
+    .navbar-custom{
+        background-color: #fff !important;
+    }
+    
+    .icon-bar{
+        background-color: black;
+    }
+    .navbar-custom .nav li a{
+        margin: 0 auto;
+        text-align: center;
+    }
+    .navbar-custom .nav li a:hover{
+        background-color: rgba(31,31,31,.1);
+    }
+    .header-text h1{
+        text-align: center;
+    }
+    .header-text p{
+        text-align: center;
+    }
+    .btn-download{
+        text-align: center;
+       margin-left:  26px;
+    }
+    
+    .btn-tour{
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .header-iphone img{
+        width: 60%;
+        margin: auto;
+    }
+    
+    /*
+    ===========================
+    about-us
+    ===========================
+    */
+    
+    .about-us h2{
+        font-size: 20px;
+    }
+    .about-us h2:after{
+        content:"";
+        position: absolute;
+        left: 35%;
+        width: 60px;
+        background-color: #31b0d5;
+        height: 2px;
+        margin-top: 40px;
+    }
+    .choose-photo img{
+        margin: 10px auto;
+        width: 70%;
+    }
+    
+    /*
+    ===================
+    choose-us
+    ===================
+    */
+    
+    .choose-title h2{
+        font-size: 20px;
+    }
+    
+    .choose-title h2:after{
+        content: "";
+        position: absolute;
+        right: 35%;
+        bottom: -10px;
+        background-color: #31b0d5;
+        height: 2px;
+        width: 70px;
+    }
+    .choose-us-item div i{
+        vertical-align: middle;
+        margin-top: 110px;
+    }
+      
+    /*
+    ================
+     features
+    ================
+    */
+    .feature-text h2{
+        font-size: 20px;
+    }
+    
+    .feature-text h2:after{
+        position: absolute;
+        content: "";
+        left: 35%;
+        bottom:-4px;
+        width: 65px;
+        height: 2px;
+        background-color: #5bc0de;
+    }
+
+    .feature-item-left div i{
+        font-size: 40px;
+        margin-left: 15px;
+        color: #5bc0de;
+    }
+    
+    .feature-item-left h3{
+        font-size: larger;
+        font-weight: 800;
+        text-transform:uppercase;
+        margin-bottom: 20px;
+
+    }
+
+    .feature-iphone img{
+        width: 60%;
+        margin: auto;
+    }
+
+    .feature-item-right div i{
+        font-size: 40px;
+        margin-left: 15px;
+        color: #5bc0de;
+    }
+
+    .feature-item-right h3{
+        font-size: larger;
+        font-weight: 800;
+        text-transform:uppercase;
+        margin-bottom: 20px;
+
+    }
+    
+    /*
+    ===============
+    Purchase
+    ===============
+    */
+
+    .purchase p{
+        margin-top:20px ;
+        text-align: left;
+    }
+    
+    .btn-purchase-now{
+        margin-top: 20px;
+        margin-left: 20px;
+        text-align: center;
+    }
+    
+    /*
+    ================
+    Slider
+    ================
+    */
+
+    .silder-title h2:after{
+        position: absolute;
+        content: "";
+        left: 40%;
+        bottom:-13px;
+        width: 60px;
+        height: 2px;
+        background-color: #5bc0de;
+    }
+    
+    /*
+    ============
+    Download
+    ============
+    */
+
+    .download-title h2{
+        font-size: 20px;
+       
+    }
+
+    .download-title h2:after{
+        position: absolute;
+        content: "";
+        left: 38%;
+        bottom:-13px;
+        width: 65px;
+        height: 2px;
+        background-color: #5bc0de;
+    }
+    
+    /*
+    ==================
+    Available
+    ==================
+    */
+
+    .available-title h2{
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .available-title p{
+        text-align: center;
+    }
+
+    .available-title h2:after{
+        position: absolute;
+        content: "";
+        left: 35%;
+        bottom:-13px;
+        width: 60px;
+        height: 2px;
+        background-color: #5bc0de;
+    }
+
+    .available-item {
+        border-bottom: 1px solid rgba(0, 0, 0, .4);
+        border-left:none ;
+    }
+    
+    /*
+    ================
+    Contact US
+    ================
+    */
+
+    .contact-us-title h2{
+        font-size: 20px;
+        
+    }
+
+    .contact-us-title h2:after{
+        position: absolute;
+        content: "";
+        left: 40%;
+        bottom:-13px;
+        width: 60px;
+        height: 2px;
+        background-color: #5bc0de;
+    }
+    .contact-us-title p{
+     text-align: center;
+    }
+
+    .social-icons ul li{
+
+        margin-left: 8px;
+        display: inline;
+
+    }
+}
